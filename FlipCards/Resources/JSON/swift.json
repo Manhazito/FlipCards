@@ -1,0 +1,234 @@
+{
+  "category": "Swift language",
+  "questions": [
+    {
+      "question": "What's OOP (Object-Oriented Pragramming)?",
+      "answer": "Object-oriented programming is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields, and code in the form of procedures. In OOP, computer programs are designed by making them out of objects that interact with one another.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's MVC (Model-View-Controller)?",
+      "answer": "Model-View-Controller is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements. These elements are the internal representations of information (the model), the interface (the view) that presents information to and accepts it from the user, and the controller software linking the two.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's MVP (Model-View-Presenter)?",
+      "answer": "Model-View-Presenter is a derivation of the Model-View-Controller pattern, and is used mostly for building user interfaces. In MVP, the presenter assumes the functionality of the 'middle-man', and all presentation logic is pushed to it.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's MVVM (Model-View-ViewModel)?",
+      "answer": "Model-View-ViewModel is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements. These elements are the internal representations of information (the model), the interface (the view) that presents information to and accepts it from the user, and the viewmodel that is a value converter, meaning it is responsible for exposing (converting) the data objects from the model in such a way they can be easily managed and presented. In this respect, the viewmodel is more model than view, and handles most (if not all) of the view's display logic.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's MVCS (Model-View-Controller-Store)?",
+      "answer": "Model-View-Controller-Store puts request logic into a separate object: the store. Using a store object minimizes redundant code and simplifies the code that fetches and saves data. Most importantly, it moves the logic for dealing with an external source into a tidy class with a clear and focused goal.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's VIPER (View-Interactor-Presenter-Entity-Router)?",
+      "answer": "VIPER is an architectural pattern that allows the code to be organized and structured in a way that separates data management, user interface, and input handling concerns. The View is in charge of displaying data to the user, the Interactor is in charge of business logic and data manipulation, the Presenter serves as a bridge between the View and the Interactor, the Entity represents the data model, and the Router is in charge of navigation.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's MVW (Model-View-Whatever)?",
+      "answer": "Model-View-Whatever is a term used to indicate the capability of the framework being used to give the option to choose from MVC, MVP, or MVVM approaches.",
+      "category": "Arquitecture Patters"
+    },
+    {
+      "question": "What's RP (Reactive Programming)?",
+      "answer": "Reactive Programming is a declarative programming paradigm suitable for expressing the handling of events. It enables programmers to create applications that react automatically to changes over time.",
+      "category": "Arquitecture Patters"
+    },
+
+    {
+      "question": "What's a Singleton?",
+      "answer": "In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to a singular instance.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's an Object Pool?",
+      "answer": "The object pool pattern is a software creational design pattern that uses a set of initialized objects kept ready to use (pool) rather than allocating and destroying them on demand.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's an Object Factory?",
+      "answer": "In object-oriented programming, a factory is an object for creating other objects; formally, it is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be 'new'",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's a Builder?",
+      "answer": "Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's an Adapter?",
+      "answer": "Adapter is a Structural Design Pattern that allows incompatible interfaces between classes to work together without modifying their source code. It acts as a bridge between two interfaces, making them compatible so that they can collaborate and interact seamlessly.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's a Bridge?",
+      "answer": "Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's a Decorator?",
+      "answer": "A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's a Composite?",
+      "answer": "In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to 'compose' objects into tree structures to represent part-whole hierarchies.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's a Façade?",
+      "answer": "The façade pattern is a software-design pattern commonly used in object-oriented programming. Analogous to a facade in architecture, a facade is an object that serves as a front-facing interface masking more complex underlying or structural code.",
+      "category": "Design Patterns"
+    },
+    {
+      "question": "What's an Interface?",
+      "answer": "An Interface is a group of related properties and functions that can be implemented by any class. They let us reuse a single API declaration in completely unrelated classes.",
+      "category": "Design Patterns"
+    },
+
+    {
+      "question": "What's Delegation?",
+      "answer": "In delegation, an object handles a request by delegating to a second object (the delegate). The delegate is a helper object, but with the original context.",
+      "category": "Event Patterns"
+    },
+    {
+      "question": "What's a Callback block?",
+      "answer": "A Callback block is a block of executable code that is passed as an argument to another piece of code.",
+      "category": "Event Patterns"
+    },
+    {
+      "question": "What's the Notification Center?",
+      "answer": "The Notification Center in Swift is a design pattern that allows an object (the observer) to receive notifications from other objects (the subjects) about changes to their state.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the first function on a ViewController lifecycle?",
+      "answer": "The init is the first function called, followed by loadView, and then viewDidLoad.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the last function on a ViewController lifecycle?",
+      "answer": "The last function called is viewDidDisappear",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "Of these functions, what's the one that's called first on a ViewController lifecycle?: viewDidLoad; viewDidAppear; viewWillAppear.",
+      "answer": "These functions are called in the following order: viewDidLoad; viewWillAppear; viewDidAppear.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "When is the function didReceiveMemoryWarning called?",
+      "answer": "This method is called when the system determines that the amount of available memory is low. You can override this method to release any additional memory used by your view controller.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's Core Data?",
+      "answer": "Core Data is an object graph and persistence framework. It allows data organized by the relational entity-attribute model to be serialized into XML, binary, or SQLite stores",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's User Defaults?",
+      "answer": "User Defaults allows the storage of preferences that persist across launches of the app. It's a key-value store backed by a property list (plist) file.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the Keychain for?",
+      "answer": "The keychain allows the user to store small secrets, like passwords and cryptographic keys.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the Codable protocol?",
+      "answer": "Codable is a protocol in Swift that allows you to encode and decode data between your app and a JSON.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's ARC (Automatic Reference Counting)?",
+      "answer": "Frees up memory for objects when there are zero strong references to them. Has a Circular Reference problem, solved by Week (or Unowned) References",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the difference between Strong and Week references?",
+      "answer": "Strong reference: increases ARC reference count, Week references do not, and are Nil if referenced object does not exist",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the difference between Week and Unowned references?",
+      "answer": "Like Week references, Unowned references do not increase ARC reference count, but cannot be Nil. This can lead to dangling pointers. Should be used only when you know it will not be Nil (like an implicitly unwrapped optional).",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "Why should you use Guard instead of If Let?",
+      "answer": "Guard makes code more readable and easy to maintain by removing the need to nested If Let blocks.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What is a Defer block?",
+      "answer": "It's a block of code that always executes before execution leaves current scope.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "How do In-out parameters work?",
+      "answer": "When the function is called, the value of the argument is copied. In the body of the function, the copy is modified and when the function returns, the copy's value is assigned to the original argument. Parameters must be passed with the & symbol preceding it.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "Code that changes the UI must be called in which thread?",
+      "answer": "UI changes can only be made on the Main Thread.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What are Escaping closures?",
+      "answer": "Escaping closures execute after the method who calls it returns (they still exist after that method returns).",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the difference between [unowned self] and [weak self]?",
+      "answer": "In neither case the closure olds a strong reference to the self variable. Using [week self] has the advantage of making 'self' an Optional.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the main differences between a Class and a Struct?",
+      "answer": "Structs are value types and Classes are reference types. Classes can inherit from other Classes.",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What's the GCD (Grand Central Dispatch)?",
+      "answer": "Dispatches code to be executed in queues with different QOS (Quality Of Service).",
+      "category": "Swift SDK"
+    },
+    {
+      "question": "What are Semaphores?",
+      "answer": "Control the execution of a block of code on different threads.",
+      "category": "Swift SDK"
+    },
+
+    {
+      "question": "What's the difference between Covariance and Contravariance?",
+      "answer": "In Covariance the types can be used in the same direction as basic types. If Cat is a subtype of Animal, [Cat] is a subtype of [Animal]. Also, the closure () -> Cat is a subtype of () -> Animal.\nIn Contravariance the order is inverted. Using the same example, the closure (Animal) -> Void is a subtype of (Cat) -> Void",
+      "category": "Theory"
+    },
+    {
+      "question": "What are Generics usefull for?",
+      "answer": "To create reusable functions and types that can work with any type, avoiding code duplication.",
+      "category": "Theory"
+    },
+
+    {
+      "question": "What's the SwiftPM (Swift Package Manager)?",
+      "answer": "The Swift Package Manager is a tool for managing the distribution of Swift code. It's integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.",
+      "category": "General"
+    },
+    {
+      "question": "What's CocoaPods?",
+      "answer": "CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects.",
+      "category": "General"
+    }
+  ]
+}

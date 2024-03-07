@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FlipCardsApp: App {
+    @State private var resources = Resources()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(resources)
         }
     }
 }
